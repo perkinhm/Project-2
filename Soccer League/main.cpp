@@ -9,8 +9,6 @@
 #include <iostream>
 #include "player.h"
 int main() {
-    //do we need a buffer?
-    //Hell yes we need a goddamn buffer
     
     return 0;
 }
