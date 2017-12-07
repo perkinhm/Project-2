@@ -8,7 +8,14 @@
 
 #include <iostream>
 #include "player.h"
+#include <string>
+using std::string;
+
 int main() {
+    
+    Player player_1;
+    string first_
+    
     
     return 0;
 }

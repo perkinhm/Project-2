@@ -8,14 +8,11 @@
 
 #ifndef player_h
 #define player_h
-class player{
-public:
-    
-private:
-    std::string player_name;
-    unsigned int birth_year;
-    std::string player_category;
-    bool registration_status;//initialize to false?
+struct Player{
+    std::string name_;
+//    unsigned int birth_year;
+//    std::string player_category;
+//    bool registration_status;//initialize to false?
 };
 
 #endif /* player_h */
