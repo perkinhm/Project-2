@@ -1,21 +1,10 @@
-//
-//  main.cpp
-//  Soccer League
-//
-//  Created by Holden Perkins on 11/17/17.
-//  Copyright © 2017 Holden Perkins. All rights reserved.
-//
+//Runs the program
 
-#include <iostream>
-#include "player.h"
-#include <string>
-using std::string;
+#include "player_data.h"
 
 int main() {
-    
-    Player player_1;
-    string first_
-    
+    Player team;
+    team.run();
     
     return 0;
 }

@@ -67,12 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				0507B7701FBF45D600229A89 /* main.cpp */,
+				847956221FD994B000D599A2 /* list.h */,
+				847956231FD994C100D599A2 /* list.cpp */,
 				8479561F1FD9947800D599A2 /* soccer_player.h */,
 				847956201FD9949900D599A2 /* soccer_player.cpp */,
 				847956251FD9951500D599A2 /* player_data.h */,
 				847956261FD9952900D599A2 /* player_data.cpp */,
-				847956221FD994B000D599A2 /* list.h */,
-				847956231FD994C100D599A2 /* list.cpp */,
 			);
 			path = "Soccer League";
 			sourceTree = "<group>";
