@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0507B7711FBF45D600229A89 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0507B7701FBF45D600229A89 /* main.cpp */; };
+		847956211FD9949900D599A2 /* soccer_player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 847956201FD9949900D599A2 /* soccer_player.cpp */; };
+		847956241FD994C100D599A2 /* list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 847956231FD994C100D599A2 /* list.cpp */; };
+		847956271FD9952900D599A2 /* player_data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 847956261FD9952900D599A2 /* player_data.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +28,12 @@
 /* Begin PBXFileReference section */
 		0507B76D1FBF45D600229A89 /* Soccer League */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Soccer League"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0507B7701FBF45D600229A89 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		0507B7771FBF478E00229A89 /* player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+		8479561F1FD9947800D599A2 /* soccer_player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = soccer_player.h; sourceTree = "<group>"; };
+		847956201FD9949900D599A2 /* soccer_player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = soccer_player.cpp; sourceTree = "<group>"; };
+		847956221FD994B000D599A2 /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		847956231FD994C100D599A2 /* list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = list.cpp; sourceTree = "<group>"; };
+		847956251FD9951500D599A2 /* player_data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = player_data.h; sourceTree = "<group>"; };
+		847956261FD9952900D599A2 /* player_data.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = player_data.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				0507B7701FBF45D600229A89 /* main.cpp */,
-				0507B7771FBF478E00229A89 /* player.h */,
+				8479561F1FD9947800D599A2 /* soccer_player.h */,
+				847956201FD9949900D599A2 /* soccer_player.cpp */,
+				847956251FD9951500D599A2 /* player_data.h */,
+				847956261FD9952900D599A2 /* player_data.cpp */,
+				847956221FD994B000D599A2 /* list.h */,
+				847956231FD994C100D599A2 /* list.cpp */,
 			);
 			path = "Soccer League";
 			sourceTree = "<group>";
@@ -122,6 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0507B7711FBF45D600229A89 /* main.cpp in Sources */,
+				847956211FD9949900D599A2 /* soccer_player.cpp in Sources */,
+				847956271FD9952900D599A2 /* player_data.cpp in Sources */,
+				847956241FD994C100D599A2 /* list.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
